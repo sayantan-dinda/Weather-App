@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>Weather DashBoard</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Enter A City Name</h3>
+        <input class="city-input" type="text" placeholder="Enter Your Place" />
+        <button class="search-btn">Search</button>
+        <div class="separator"></div>
+        <button class="location-btn">Use Current Location</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>Place (YYYY-MM-DD)</h2>
+            <h4>Temperature: 00.00°C</h4>
+            <h4>Wind: 0.00 M/S</h4>
+            <h4>Humidity: 00%</h4>
+          </div>
+          <div class="icon">
+            <img
+              src="https://openweathermap.org/img/wn/10d@4x.png"
+              alt="weather-data"
+            />
+            <h4>Moderate Rain</h4>
+          </div>
+        </div>
+        <div class="days-forecast">
+          <h2>5-Days Forecast</h2>
+          <ul class="weather-cards">
+            <li class="cards">
+              <h3>(_________)</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>(_________)</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>(_________)</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>(_________)</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+            <li class="cards">
+              <h3>(_________)</h3>
+              <h4>Temp: __°C</h4>
+              <h4>Wind: __ M/S</h4>
+              <h4>Humidity: __%</h4>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>
